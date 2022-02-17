@@ -1,0 +1,394 @@
+/*==================================================
+=            Bootstrap 5 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+	
+
+}
+
+@media only screen and (max-width: 768px) {
+	
+  }
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+ 
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/*
+Apple iPhone 5, 5S & 5C 
+Apple iPod Touch (5th generation)
+*/
+@media (min-width: 1136px) and (max-width: 1279px) {
+
+
+	/*body {	font-size: 16px; }*/
+}
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+@media (min-width: 960px) and (max-width: 1135px) {
+	/*body {	font-size: 15px; }*/
+	h1 { font-size:3em; }		/* 39px */
+	h2 { font-size:2.3077em; }	/* 30px */
+	h3 { font-size:1.8461em; }	/* 24px */
+}
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+/* With side menu
+@media (min-width: 768px) and (max-width: 1279px) {
+*/
+/* Without side menu */
+@media (min-width: 768px) and (max-width: 959px) {
+	/*body {	font-size: 15px; }*/
+	h1 { font-size:3em; }		/* 39px */
+	h2 { font-size:2.3077em; }	/* 30px */
+	h3 { font-size:1.8461em; }	/* 24px */
+
+		  
+
+}
+
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (max-width: 767px) {
+	/*body {	font-size: 15px; }*/
+	h1 { font-size:2.5em; }		/* 30px */
+	h2 { font-size:2em; }		/* 24px */
+	h3 { font-size:1.6667em; }	/* 20px */
+	.accordion.neww {
+		position: relative;
+		left: 0;
+	}
+
+	.pricingbtn.mob {
+		background: #1f9581;
+		color: #fff;
+		border: 1px solid #1f9581;
+		padding: 10px;
+		border-radius: 5px;
+		position: relative;
+		left: 150px;
+		top: 20px;
+		display: inline-block;
+	}
+	a.btn.pricingbtnn.btn-round.mt-20 {
+		position: absolute;
+		right: 110px;
+		top: 100px;
+		background: #ff5d1e;
+		padding: 7px 15px 7px 15px;
+		color: #fff;
+		display: none;
+	}
+
+	.section-content.healthcaree {
+		background: #fff;
+		padding: 30px;
+		width: 100%;
+		position: relative;
+		left: 0;
+	}
+
+	.service-details.aboutserv p {
+		font-size: 20px;
+	}
+	.widget.footnewsec.widget_nav_menu.split-nav-menu.clearfix {
+		margin-left: 0;
+	}
+
+
+	a.btn.btn-theme-colored2.text-white.newbtn {
+		margin-left: 120px !important;
+	}
+
+	.spinnner {
+		left: 0;
+		font-family: Open Sans;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		overflow: hidden;
+		background: transparent;
+		background-size: cover;
+		position: relative;
+		top: 130px;
+	}
+	  
+	  .mainbox {
+		position: fixed;
+		width: 500px;
+		height: 500px;
+		overflow: hidden;
+	  }
+	  
+	  .mainbox:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background: url(../spin/arrow-bottom.png) no-repeat;
+		background-size: 5%;
+		left: 1%;
+		top: 40%;
+		transform: rotate(90deg);
+	  }
+	  
+	  .box {
+		width: 340px;
+		height: 340px;
+		position: fixed;
+		border-radius: 50%;
+		border: 3px solid #fff;
+		overflow: hidden;
+		transition: all ease-in-out 5s;
+		transform: rotate(90deg);
+	  }
+	  
+	  .spinnner span {
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: absolute;
+	  }
+	  
+	  .span1 {
+		clip-path: polygon(0 17%, 0 50%, 50% 50%);
+		background-color: var(--bs-green);
+	  }
+	  
+	  .span2 {
+		clip-path: polygon(0 17%, 30% 0, 50% 50%);
+		background-color: #8caf9f;
+	  }
+	  
+	  .span3 {
+		clip-path: polygon(30% 0, 71% 0, 50% 50%);
+		background-color: #1dc376;
+	  }
+	  
+	  .span4 {
+		clip-path: polygon(71% 0, 100% 18%, 50% 50%);
+		background-color: #74bd9b;
+	  }
+	  
+	  .span5 {
+		clip-path: polygon(100% 18%, 100% 50%, 50% 50%);
+		background: #0b4128;
+	  }
+	  
+	  .box2 .span3 {
+		background-color: #00ff04;
+	  }
+	  
+	  .box2 {
+		width: 100%;
+		height: 100%;
+		transform: rotate(180deg);
+	  }
+	  
+	  .font {
+		color: white;
+		font-size: 15px;
+	  }
+	  
+	  .box1 .span1 b {
+		position: absolute;
+		top: 37%;
+		right: 68%;
+		transform: rotate(200deg);
+		text-align: center;
+	  }
+	  
+	  .box1 .span2 b {
+		position: absolute;
+		top: 25%;
+		right: 57%;
+		transform: rotate(-130deg);
+	  }
+	  
+	  .box1 .span3 b {
+		position: absolute;
+		top: 15%;
+		right: 38%;
+		transform: rotate(-90deg);
+	  }
+	  
+	  .box1 .span4 b {
+		position: absolute;
+		top: 20%;
+		right: 15%;
+		transform: rotate(-45deg);
+	  }
+	  
+	  .box1 .span5 b {
+		position: absolute;
+		top: 38%;
+		right: 10%;
+		transform: rotate(-15deg);
+		text-align: center;
+	  }
+	  
+	  .box2 .span1 b {
+		position: absolute;
+		top: 34%;
+		right: 70%;
+		transform: rotate(200deg);
+	  }
+	  
+	  .box2 .span2 b {
+		position: absolute;
+		top: 20%;
+		right: 60%;
+		transform: rotate(-130deg);
+		text-align: center;
+	  }
+	  
+	  .box2 .span3 b {
+		position: absolute;
+		top: 15%;
+		right: 40%;
+		transform: rotate(270deg);
+	  }
+	  
+	  .box2 .span4 b {
+		position: absolute;
+		top: 20%;
+		right: 15%;
+		transform: rotate(310deg);
+	  }
+	  
+	  .box2 .span5 b {
+		position: absolute;
+		top: 35%;
+		right: 10%;
+		transform: rotate(-20deg);
+		text-align: center;
+	  }
+	  
+	  .spin {
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		border: 4px solid white;
+		background-color: #ff5722;
+		color: #fff;
+		box-shadow: 0 5px 20px #000;
+		font-weight: bold;
+		font-size: 14px;
+		cursor: pointer;
+		z-index: 1000;
+	  }
+	  
+	  .spin:active {
+		width: 70px;
+		height: 70px;
+		font-size: 20px;
+	  }
+	  
+	  .mainbox.animate:after {
+		animation: animateArrow 0.7s ease infinite;
+	  }
+	  
+	  audio {
+		display: none;
+	  }
+	  
+	  @keyframes animateArrow {
+		50% {
+		  right: -50px;
+		}
+	  }
+	  
+	  @media (max-width: 576px) {
+		.mainbox {
+		  width: 100%;
+		  height: 50%;
+		}
+	  }
+	  
+
+	  #spin_button {
+		width: 45px;
+		height: 60px;
+		position: absolute;
+		left: 42%;
+		top: 22.5%;
+		transform: rotate(0);
+	}
+
+
+
+
+}
+
+
+
+
+/*
+Very common low res
+*/
+/*@media (max-width: 479px) {
+	body {	font-size: 12px; }
+	h1 { font-size:2.5em; }
+	h2 { font-size:2em; }
+	h3 { font-size:2em; }
+	h4 { font-size:1.3333em; }
+	h5 { font-size:1.1667em; }
+	h6 { font-size:1em; }
+}*/
